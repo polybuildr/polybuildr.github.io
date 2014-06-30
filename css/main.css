@@ -1,0 +1,52 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    background-image: url('../img/fabric_plaid.png');
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Open Sans', 'Crete Round', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #057cb8;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media (max-width: 600px) {
+    .container {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        font-size: 10px;
+    }
+}
