@@ -36,7 +36,8 @@ a {
 
 a:active,
 a:hover {
-  outline: 0;
+    outline: 0;
+    color: orange;
 }
 
 @media (max-width: 600px) {
