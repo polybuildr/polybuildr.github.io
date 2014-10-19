@@ -20,12 +20,14 @@ h1 {
     font-family: 'Crete Round', sans-serif;
     font-size: 5em;
     font-weight: 400;
+    margin: 0.67em;
 }
 
 h2 {
     font-size: 2em;
     font-family: 'Open Sans', 'Crete Round', sans-serif;
     font-weight: 300;
+    margin: 0.83em;
 }
 
 a {
