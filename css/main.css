@@ -42,6 +42,12 @@ a:hover {
     color: orange;
 }
 
+.dead-browser {
+    padding: 1em;
+    background-color: red;
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     .container {
         font-size: 12px;
