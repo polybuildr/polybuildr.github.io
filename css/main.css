@@ -1,61 +1,39 @@
 html {
-    font-size: 16px;
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+  font-size: 20px;
+  color: #333;
 }
-
 body {
-    background-image: url('../img/fabric_plaid.png');
-    margin: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-
+html, body, .container {
+  height: 100%;
+}
 .container {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  display: flex;
+  align-items: center;
 }
-
+.content {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10%;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 10rem;
+  box-shadow: 0 0 5px 1px #ccc;
+}
 h1 {
-    font-family: 'Crete Round', sans-serif;
-    font-size: 5em;
-    font-weight: 400;
-    margin: 0.67em;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: .5rem;
 }
-
-h2 {
-    font-size: 2em;
-    font-family: 'Open Sans', 'Crete Round', sans-serif;
-    font-weight: 300;
-    margin: 0.83em;
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
-
-a {
-    background: transparent;
-    text-decoration: none;
-    color: #057cb8;
-}
-
-a:active,
-a:hover {
-    outline: 0;
-    color: orange;
-}
-
-.dead-browser {
-    padding: 1em;
-    background-color: red;
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
-    .container {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 400px) {
-    .container {
-        font-size: 10px;
-    }
+nav a:hover {
+  color: #2075b1;
 }
