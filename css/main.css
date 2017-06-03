@@ -21,7 +21,7 @@ html, body, .container {
 .container {
   display: flex;
   align-items: center;
-  padding: .5rem;
+  padding: 1rem;
 }
 .content {
   max-width: 960px;
@@ -42,7 +42,8 @@ h1 {
 nav a {
   color: #333;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  margin: .3rem;
 }
 nav a:hover {
   color: #2075b1;
